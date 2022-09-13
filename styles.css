@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size:100px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 30px;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 2px solid black;
+}
+
+table {
+    /* removes the outer lines of the box */
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 32px;
+}
+
+td {
+    width: 32px;
+}
+
+input[type=number] {
+    width: 100px;
+}
